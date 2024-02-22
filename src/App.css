@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ul li a{
+    font-family:'poppins';
+    color: white;
+}
+
+*{
+    font-family: 'poppins';
+}
+
+ul  li a:hover{
+    border-bottom: 3px solid rgb(223, 190, 7);
+    transition: 0.2s ease;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4cm;
+
+}
+
+input::placeholder{
+    color: white;
+}
+
+#box{
+    width: 8cm;
+    height: 1.2cm;
+    background-color: transparent;
+   
+}
+#box::placeholder{
+    color: white;
+}
+#box1{
+    width: 8cm;
+    height: 1.2cm;
+    margin-top: 0.5cm;
+    background-color: transparent;
+}
+#box1::placeholder{
+    color: white;
+}
+
+#boxs{
+    width: 8cm; 
+    margin-top: 0.5cm;
+    height: 3cm;
+    background-color: transparent;
+}
+
+#boxs::placeholder{
+    color: white;
+}
