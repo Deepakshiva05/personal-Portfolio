@@ -3,13 +3,16 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 const UserInfo =require('./models/ReactSchema');
+require("dotenv").config();
+
+const mongo_url=process.env.mongo_url;
 
 
 
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb://localhost:27017/test', { useNewUrlParser: true});
+mongoose.connect(mongo_url, { useNewUrlParser: true});
 
 app.post('/contact', async(req, res) => {
 
