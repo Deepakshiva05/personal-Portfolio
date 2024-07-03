@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await Axios.post('http://localhost:4000/contact', {
+      await Axios.post('https://personal-portfolio-ukcv.onrender.com/contact', {
         name: name,
         email: email,
         message: message
