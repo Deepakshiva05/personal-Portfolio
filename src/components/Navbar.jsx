@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
 
    
-    <div className="container mt-4" style={{height:'2cm'}}>
+    <div className="container mt-4 ms-3" style={{height:'2cm'}}>
               <ul className='d-flex  list-unstyled me-3 justify-content-center'>
                 <li><a href='#home' className='ms-3 text-decoration-none text-warning'>Home</a></li>
                 <li><a href='#about' className='ms-3 text-decoration-none text-light'>About</a></li>

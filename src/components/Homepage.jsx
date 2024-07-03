@@ -2,7 +2,7 @@ import React from 'react';
 import animation from '../components/animation_lmutqoq8.json';
 import Lottie from 'lottie-react';
 import hacker from '../components/hacker.json';
-import resume from '../assets/DS-finalResume.pdf'
+import resume from '../assets/Resume-jd.pdf'
 
 const Homepage = () => {
   return (
@@ -19,7 +19,7 @@ const Homepage = () => {
                 <h3 className='text-light'>Hii There !</h3>
                 <h1 className='text-light'>I am a <span className='text-warning'>Developer</span></h1>
                 <p className='text-light'>Passionate frontend developer with expertise in HTML, CSS, JavaScript and React Js.Eager to contribute creativity and technical proficiency to dynamic development teams.</p>
-                <a className='btn btn-outline-light' href={resume} download >Download Cv</a> <button className='btn btn-outline-light'>Hire Me</button>
+                <a className='btn btn-outline-light' href={resume} download >Download Cv</a> <a className='btn btn-outline-light' href='https://www.linkedin.com/in/deepak-shiva-m-3186b8221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>Hire Me</a>
                 
             </div>
             <div className="col-lg-6 order-1 col-md-6" data-aos="zoom-in-right" data-aos-duration="1000">

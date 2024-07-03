@@ -9,7 +9,7 @@ import Lottie from 'lottie-react';
 const Footer = () => {
   return (
     <>
-    <div className="container">
+    <div className="container" style={{marginTop:"2cm", minHeight:"3cm"}}>
         <ul className='d-flex justify-content-center'>
            <Lottie animationData={teleanim} style={{height:'1.5cm'}} ></Lottie>
             <a href='https://www.instagram.com/iamshiva_offl?igsh=ZHBncmFhdHJ2aDd5'><Lottie animationData={instaanim} style={{height:'1.5cm'}}></Lottie></a>

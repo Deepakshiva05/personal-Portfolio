@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Skills = () => {
   return (
     <>
-    <section id='skills'>
+    <section id='skills' style={{marginTop:"2cm"}}>
         <div className="container">
             <h1 className='text-light text-center'>My <span className='text-warning'>Skills</span></h1>
                 <div className="cards d-flex align-items-left justify-content-evenly mt-5 flex-wrap">
